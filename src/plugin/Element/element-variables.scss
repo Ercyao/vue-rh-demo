@@ -1,0 +1,12 @@
+/* 改变主题色变量 */
+$--color-primary: #33cdb8;
+
+/* 改变 icon 字体路径变量，必需 */
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+.el-button--default {
+  color: #33cdb8 !important;
+  border-color: #33cdb8 !important;
+}
+
+@import '~element-ui/packages/theme-chalk/src/index';
